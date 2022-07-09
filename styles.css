@@ -1,0 +1,77 @@
+/**
+--royal-blue-dark: #001753;
+--spanish-blue: #3370b1;
+--blue-gray: #529be1;
+--old-gold: #c5b926;
+--alice-blue: #e9f1fc 
+*/
+@font-face {
+    font-family: cocogoose;
+    src: url("cocogoose.ttf");
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(#e9f1fc, #3370b1);
+    font-family: cocogoose, serif;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    color: #c5b926;
+    text-shadow: 1px 1px 2px gray
+}
+
+#divider {
+    width: 40%;
+    margin: 0px auto;
+    height: 2px;
+    background-color: #c5b926;
+}
+
+#activity-section {
+    margin: 10px 0px;
+    
+}
+#nature {
+    float: left;
+    width: 49%;
+    height: 200px;
+    background-image: url("jetski.jpg");
+    background-size: cover;
+    width: 50%;
+}
+#gastronomy {
+    background-image: url("chivito.jpg");
+    background-size: cover;
+    float: right;
+    height: 200px;
+    width: 50%;
+}
+#culture {
+    float: left;
+    height: 200px;
+    width: 50%;
+    background-image: url("casa-blanca");
+    background-size: cover;
+}
+#beach {
+    float: right;
+    height: 200px;
+    width: 50%;
+    background-image: url("beach-entrance.jpg");
+    background-size: cover;
+}
+.read-more-btn {
+    font: inherit;
+    border-radius: 20px
+    
+}
+.read-more-btn:hover {
+    background-color: #c5b926;
+}

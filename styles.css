@@ -27,6 +27,10 @@ h1 {
     text-shadow: 1px 1px 2px gray
 }
 
+h3 {
+    font-size: 2em;
+}    
+
 #divider {
     width: 40%;
     margin: 0 auto 1em;

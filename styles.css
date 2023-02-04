@@ -29,44 +29,51 @@ h1 {
 
 #divider {
     width: 40%;
-    margin: 0px auto;
+    margin: 0 auto 1em;
     height: 2px;
     background-color: #c5b926;
 }
 
+#description {
+    width: 60%;
+    margin: 0 auto;
+}
+
 #activity-section {
-    margin: 10px 0px;
-    
+    margin: 1em 0px 0px;
 }
 #nature {
     float: left;
-    width: 49%;
-    height: 200px;
     background-image: url("jetski.jpg");
     background-size: cover;
+    background-position: center;
     width: 50%;
 }
 #gastronomy {
     background-image: url("chivito.jpg");
     background-size: cover;
+    background-position: center;
     float: right;
-    height: 200px;
     width: 50%;
 }
 #culture {
     float: left;
-    height: 200px;
     width: 50%;
     background-image: url("casa-blanca");
     background-size: cover;
 }
 #beach {
     float: right;
-    height: 200px;
     width: 50%;
     background-image: url("beach-entrance.jpg");
     background-size: cover;
+    background-position: bottom;
 }
+
+.activity {
+    height: 20em;
+}
+
 .read-more-btn {
     font: inherit;
     border-radius: 20px
@@ -74,4 +81,6 @@ h1 {
 }
 .read-more-btn:hover {
     background-color: #c5b926;
+    cursor: pointer;
 }
+
